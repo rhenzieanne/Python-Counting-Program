@@ -4,11 +4,11 @@ while True:
         print('Hey there,',firstName,)
         break
     else:
-        print('Seriously?')
+        print('Error')
 while True:
-    numberInput=input('Choose a number, any number!')
+    numberInput=input('What number would you like to choose?')
     if numberInput.isnumeric():
-      print('Wonderful, your number is', numberInput)
+      print('Awesome, your number is', numberInput)
       numberInput=int(numberInput)
       for x in range(0, numberInput+1, 2):
         print(x)
