@@ -13,4 +13,4 @@ while True:
       for x in range(0, numberInput+1, 2):
         print(x)
     else:
-      print('Please enter a NUMBER..!')
+      print('Please enter a NUMBER..!')#it is an else condition
